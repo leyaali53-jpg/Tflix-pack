@@ -8,6 +8,19 @@
   "idPrefixes": ["tt"],
   "behaviorHints": {
     "configurable": false
-  }
+  },
+  "providers": [
+    {
+      "name": "Rakan Mirror",
+      "type": "stream"
+    },
+    {
+      "name": "Bard Mirror",
+      "type": "stream"
+    },
+    {
+      "name": "Xayah Mirror",
+      "type": "stream"
+    }
+  ]
 }
-
