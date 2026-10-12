@@ -1,8 +1,8 @@
 {
-  "id": "com.nunesnetwork.tflix.mirror",
-  "version": "1.0.0",
+  "id": "com.nunesnetwork.tflix.bridge",
+  "version": "1.0.2",
   "name": "NunesNetwork Server Bridge",
-  "description": "Configures external index configurations mapped from the web player.",
+  "description": "Configures web streaming playback loops mapped from the browser interface.",
   "resources": ["catalog", "stream"],
   "types": ["movie", "series"],
   "idPrefixes": ["tt"],
@@ -11,16 +11,19 @@
   },
   "providers": [
     {
-      "name": "Rakan Mirror",
-      "type": "stream"
+      "name": "Rakan Server",
+      "type": "stream",
+      "url": "https://vixsrc.xyz"
     },
     {
-      "name": "Bard Mirror",
-      "type": "stream"
+      "name": "Bard Server",
+      "type": "stream",
+      "url": "https://videasy.net"
     },
     {
-      "name": "Xayah Mirror",
-      "type": "stream"
+      "name": "Xayah Server",
+      "type": "stream",
+      "url": "https://vaplayer.to"
     }
   ]
 }
