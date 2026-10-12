@@ -1,1 +1,13 @@
+{
+  "id": "com.nunesnetwork.tflix.mirror",
+  "version": "1.0.0",
+  "name": "NunesNetwork Server Bridge",
+  "description": "Configures external index configurations mapped from the web player.",
+  "resources": ["catalog", "stream"],
+  "types": ["movie", "series"],
+  "idPrefixes": ["tt"],
+  "behaviorHints": {
+    "configurable": false
+  }
+}
 
